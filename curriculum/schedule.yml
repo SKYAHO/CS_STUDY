@@ -1,0 +1,37 @@
+weeks:
+  - id: week-01
+    topic: 운영체제
+    days:
+      - { id: day-1, subtopic: 프로세스와 스레드 }
+      - { id: day-2, subtopic: CPU 스케줄링 }
+      - { id: day-3, subtopic: 메모리와 가상메모리 }
+  - id: week-02
+    topic: 네트워크
+    days:
+      - { id: day-1, subtopic: TCP-IP와 OSI 7계층 }
+      - { id: day-2, subtopic: HTTP와 HTTPS }
+      - { id: day-3, subtopic: DNS와 로드밸런싱 }
+  - id: week-03
+    topic: 데이터베이스
+    days:
+      - { id: day-1, subtopic: 정규화와 트랜잭션 }
+      - { id: day-2, subtopic: 인덱스와 실행계획 }
+      - { id: day-3, subtopic: NoSQL과 샤딩 }
+  - id: week-04
+    topic: 자료구조
+    days:
+      - { id: day-1, subtopic: 배열과 연결리스트 }
+      - { id: day-2, subtopic: 트리와 그래프 }
+      - { id: day-3, subtopic: 해시와 힙 }
+  - id: week-05
+    topic: 알고리즘
+    days:
+      - { id: day-1, subtopic: 정렬과 탐색 }
+      - { id: day-2, subtopic: 동적계획법과 그리디 }
+      - { id: day-3, subtopic: 시간복잡도와 공간복잡도 }
+  - id: week-06
+    topic: 언어와 기타
+    days:
+      - { id: day-1, subtopic: 객체지향과 디자인패턴 }
+      - { id: day-2, subtopic: 동시성과 교착상태 }
+      - { id: day-3, subtopic: 시스템설계 기초 }
