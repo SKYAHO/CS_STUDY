@@ -1,0 +1,38 @@
+name: 면접 질문 등록
+description: NotebookLM에서 생성한 질문을 등록하면 Action이 questions.md로 변환
+title: "[질문] <주차/일자>"
+labels: ["generate-questions"]
+body:
+  - type: dropdown
+    id: week
+    attributes:
+      label: 주차
+      options:
+        - week-01
+        - week-02
+        - week-03
+        - week-04
+        - week-05
+        - week-06
+    validations:
+      required: true
+  - type: dropdown
+    id: day
+    attributes:
+      label: 일자
+      options:
+        - day-1
+        - day-2
+        - day-3
+    validations:
+      required: true
+  - type: textarea
+    id: questions
+    attributes:
+      label: 질문
+      description: NotebookLM에서 만든 면접 질문을 마크다운 그대로 붙여넣으세요.
+      placeholder: |
+        ## Q1. 프로세스와 스레드의 차이는?
+        ...
+    validations:
+      required: true
